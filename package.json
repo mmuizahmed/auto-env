@@ -1,6 +1,6 @@
 {
   "name": "load-my-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load .env into process.env on import — no .config() call",
   "license": "MIT",
   "author": "Muiz Ahmed <muizahmedarain@gmail.com>",
@@ -12,8 +12,17 @@
   "bugs": {
     "url": "https://github.com/mmuizahmed/load-my-env/issues"
   },
-  "keywords": ["dotenv", "env", ".env", "environment", "auto", "config"],
-  "engines": { "node": ">=12" },
+  "keywords": [
+    "dotenv",
+    "env",
+    ".env",
+    "environment",
+    "auto",
+    "config"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
@@ -24,7 +33,16 @@
     },
     "./package.json": "./package.json"
   },
-  "files": ["index.js", "index.d.ts", "LICENSE", "README.md"],
-  "scripts": { "test": "node test.js" },
-  "dependencies": { "dotenv": "^16.4.7" }
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
