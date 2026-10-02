@@ -6,11 +6,11 @@
   "author": "Muiz Ahmed <muizahmedarain@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmuizahmed/auto-env.git"
+    "url": "git+https://github.com/mmuizahmed/load-my-env.git"
   },
-  "homepage": "https://github.com/mmuizahmed/auto-env#readme",
+  "homepage": "https://github.com/mmuizahmed/load-my-env#readme",
   "bugs": {
-    "url": "https://github.com/mmuizahmed/auto-env/issues"
+    "url": "https://github.com/mmuizahmed/load-my-env/issues"
   },
   "keywords": ["dotenv", "env", ".env", "environment", "auto", "config"],
   "engines": { "node": ">=12" },
