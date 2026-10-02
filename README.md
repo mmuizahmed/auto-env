@@ -1,21 +1,21 @@
-﻿# auto-env
+# load-my-env
 
 Load a `.env` file into `process.env` the moment you import the package. No `.config()` call.
 
-Thin wrapper around [dotenv](https://github.com/motdotla/dotenv). Same behavior as `import 'dotenv/config'`, with a shorter name.
+Thin wrapper around [dotenv](https://github.com/motdotla/dotenv). Same behavior as `import 'dotenv/config'`, with a clearer name.
 
 ## Install
 
 ```bash
-npm install auto-env
+npm install load-my-env
 ```
 
 ## Usage
 
 ```js
-import 'auto-env'
+import 'load-my-env'
 // or
-require('auto-env')
+require('load-my-env')
 
 console.log(process.env.MY_VAR)
 ```
@@ -23,15 +23,15 @@ console.log(process.env.MY_VAR)
 ### Preload
 
 ```bash
-node -r auto-env index.js
+node -r load-my-env index.js
 ```
 
 ### Advanced
 
-`auto-env` re-exports dotenv, so you can still call `config`, `parse`, and `populate` if you need them:
+`load-my-env` re-exports dotenv, so you can still call `config`, `parse`, and `populate` if you need them:
 
 ```js
-const { config, parse } = require('auto-env')
+const { config, parse } = require('load-my-env')
 ```
 
 ## License

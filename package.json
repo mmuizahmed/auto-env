@@ -1,5 +1,5 @@
-﻿{
-  "name": "auto-env",
+{
+  "name": "load-my-env",
   "version": "1.0.0",
   "description": "Load .env into process.env on import — no .config() call",
   "license": "MIT",
